@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body{
+	font-family: 'lora', serif ;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #060D17;
+	color:#999C9F ;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h1,h2,h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+} 
+a{
+	text-decoration: none;
+}
+p{
+	color: #999C9F;
+	font-family: 'roboto', sans-serif;
+}
+button{
+	background-color: #FBC500;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+.stream img{
+
+border-radius: 50%;
+}
+
+.stream h2{
+
+text-align: center;
+}
+
+.stream{
+
+margin-top: 40px;
+
+text-align: center;
+
+}
+
+.newsletter {
+  background-color: #10161D;
+  padding: 40px 0;
+  text-align: center;
+
+}
+
+button[type="submit"] {
+  padding: 15px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+

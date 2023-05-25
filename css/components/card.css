@@ -1,0 +1,51 @@
+.highlight {
+  color: #FBC500;
+}
+
+.card{
+	padding: 30px;
+	padding-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px;
+	flex-basis: 600px;
+	flex-grow: 1;
+	
+}
+.herocard{
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	flex-basis: 600px;
+	flex-grow: 1;
+	
+}
+.card img {
+  width: 50%;
+  height: auto;
+}
+
+.cardmenu {
+  text-align: center;
+  background-color: #10161D;
+  color: white;
+}
+
+.cardmenu ul {
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+}
+
+.cardmenu ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.cardmenu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
+
